@@ -22,6 +22,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/expanded-background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33934,
+		"inputAbbreviatedPath": "\/img\/expanded-background.png",
+		"outputAbbreviatedPath": "\/img\/expanded-background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/picture.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -130,6 +141,17 @@
 		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/Untitled-1-assets\/expanded-background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1306,
+		"inputAbbreviatedPath": "\/Untitled-1-assets\/expanded-background.png",
+		"outputAbbreviatedPath": "\/Untitled-1-assets\/expanded-background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
