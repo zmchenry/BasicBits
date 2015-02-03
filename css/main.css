@@ -228,9 +228,41 @@ h1 {
    background: lightgreen;
 }
 
-.content-stories {
+.mason {
    background: url("../img/background.png") repeat;
-   opacity: 1;
+   height: 100%;
+   overflow: auto;
+
 }
+
+/* Masonry Layout */
+
+ol {
+   -moz-column-count: 4;
+   -moz-column-gap: 10px;
+   -webkit-column-count: 4;
+   -webkit-column-gap: 10px;
+   column-count: 4;
+   column-gap: 10px;
+   position: relative;
+   margin: 75px auto;
+   width: 90%;
+   z-index: 9;
+}
+
+ol li {
+   border-radius: 10px;
+   display: inline-block;
+   list-style: none;
+   width: 100%;
+   text-align: center;
+   overflow: hidden;
+}
+
+#imgur-tile {
+   background: url("../img/tiles/imgurfrontpage.png");
+}
+
+/* Masonry Layout END */
 
 /* MEDIA QUERIES */
