@@ -9,6 +9,7 @@ Email: zmchenry@gmail.com
 html {
    width: 100%;
    height: 100%;
+   overflow-y: auto;
 }
 
 body {
@@ -22,6 +23,11 @@ body {
 * {
    margin: 0;
    padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: white;
 }
 
 
@@ -231,37 +237,41 @@ h1 {
 .mason {
    background: url("../img/background.png") repeat;
    height: 100%;
-   overflow: auto;
+}
 
+.container {
+    height: 100%;
 }
 
 /* Masonry Layout */
 
 ol {
    -moz-column-count: 4;
-   -moz-column-gap: 10px;
    -webkit-column-count: 4;
-   -webkit-column-gap: 10px;
    column-count: 4;
-   column-gap: 10px;
    position: relative;
-   margin: 75px auto;
-   width: 90%;
+   width: 100%;
+   margin: 55px 15px;
    z-index: 9;
+   background: url("../img/background.png") repeat;
 }
 
 ol li {
-   border-radius: 10px;
    display: inline-block;
    list-style: none;
    width: 100%;
    text-align: center;
    overflow: hidden;
+   background: blue;
+   height: 100%;
 }
 
-#imgur-tile {
-   background: url("../img/tiles/imgurfrontpage.png");
+li > a {
+   height: 0;
+   width: 0;
+   display: none;
 }
+
 
 /* Masonry Layout END */
 
