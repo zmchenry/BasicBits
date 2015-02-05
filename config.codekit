@@ -121,6 +121,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tiles\/backbonetodo_tile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143601,
+		"inputAbbreviatedPath": "\/img\/tiles\/backbonetodo_tile.jpg",
+		"outputAbbreviatedPath": "\/img\/tiles\/backbonetodo_tile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tiles\/crime_scene_tile.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -128,6 +139,26 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/tiles\/crime_scene_tile.png",
 		"outputAbbreviatedPath": "\/img\/tiles\/crime_scene_tile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tiles\/imgurfrontpage.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/tiles\/imgurfrontpage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31573,
+		"inputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.jpg",
+		"outputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

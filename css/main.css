@@ -42,6 +42,12 @@ ol li {
    line-height: 0;
 }
 
+ol li img {
+   max-width: 700px;
+   overflow: hidden;
+   display: block;
+}
+
 ol li:after {
    margin: 0;
    padding: 0;
@@ -122,13 +128,13 @@ ol li:after {
 /* Fixed Title Bar END */
 
 /* Masonry Layout */
-.mason-img {
-   background: transparent;
-   font-size: 100%;
-   margin: 0;
-   padding: 0;
-   vertical-align: baseline;
+
+.reposition {
+   position: relative;
+   left: -75px;
+   max-width: 500px;
 }
+
 
 /* Masonry Layout END*/
 
