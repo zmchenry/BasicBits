@@ -9,126 +9,71 @@ Email: zmchenry@gmail.com
 html {
    width: 100%;
    height: 100%;
-   overflow-y: auto;
 }
 
 body {
    margin: 0;
-   width: 100%;
-   height: 100%;
-   position: relative;
 }
 
+h1 {
+   font-family: 'Federo', sans-serif;
+   margin: 0;
+}
 
-* {
+ol {
+   clear: both;
+   -moz-column-count: 4;
+   -moz-column-gap: 0;
+   -webkit-column-count: 4;
+   -webkit-column-gap: 0;
+   column-count: 4;
+   column-gap: 0;
+   position: relative;
+   width: 90%;
+   z-index: 9;
+   margin: 10px auto;
+}
+
+ol li {
+   display: block;
+   list-style: none;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+}
+
+ol li:after {
    margin: 0;
    padding: 0;
 }
 
-a {
-   text-decoration: none;
-   color: white;
-}
-
-
 /*End Global Styles */
-h1 {
-   font-family: 'Federo', sans-serif;
-}
 
+/* Fixed Title Bar */
 
-.overlay {
-   position: absolute;
-   top: 0;
-   left: 0;
+.container {
+   background: lightblue;
    height: 100%;
-   width: 100%;
-   z-index: -2;
-   background: lightgreen;
 }
 
-.expanded-header {
-   width: 100%;
-   position: fixed;
-   top: 0;
-   left: 0;
-   text-align: center;
-   z-index: -1;
-   height: 65%;
-   line-height: 15px;
-   background: url("../img/expanded-background.png");
-
-}
-
-.title-grouping {
-   margin: 5% auto;
-   width: 100%;
-   vertical-align: middle;
-}
-
-.title-grouping #title {
-   margin: 20px 5%;
-   font-size: 1.3em;
-}
-
-.title-grouping .social-icons {
-   margin: 20px auto;
-   display: inline-block;
-   width: 80%
-}
-
-.picture img {
-   height: 230px;
-   width: 230px;
-   border-radius: 50%;
-   margin: 20px;
-}
-
-.pattern {
-   background: url("../img/simple-shape.png") repeat;
-   position: fixed;
-   width: 100%;
-   top: 65%;
-   left: 0;
-}
-
-/* Begin Header */
-.parallax-group .reduced-header {
-   z-index: 5;
-}
-
-.reduced-header, .pattern {
-   height: 55px;
-   line-height: 15px;
-   background: url("../img/simple-shape.png") repeat;
-   overflow: auto;
-   opacity: 1;
-}
-
-.reduced-header #title, .expanded-header #title {
-   vertical-align: middle;
-   font-family: 'Montserrat', sans-serif;
-   text-transform: uppercase;
-   display: inline-block;
-   padding: 0 10px;
+.title-bar {
+   background: url('../img/expanded-background.png');
    color: white;
+   width: 100%;
+   height: 55px;
+   line-height: 55px;
 }
 
-.expanded-header #title {
-   font-size: 2.5em;
-}
-
-.reduced-header #title {
-   margin: 15px 5%;
+#title {
+   margin: 0;
+   width: 45%;
+   padding-left: 5%;
+   display: inline-block;
 }
 
 .social-icons {
    height: 36px;
    opacity: .9;
-   width: 100%
-}
-
-.reduced-header .social-icons {
    position: absolute;
    right: 0;
    width: 175px;
@@ -136,9 +81,7 @@ h1 {
 }
 
 .social-icon {
-
-   background-repeat: no-repeat;
-   background-position: center;
+   background: no-repeat center;
    height: 50px;
 }
 
@@ -151,127 +94,79 @@ h1 {
    width: 35%;
 }
 
-.expanded-icon {
-   display: inline-block;
-   background-size: 45%;
-   width: 5%;
-}
-
-
 .social-icons #twitter-icon {
    background-image: url("../img/social-icons/twitter_icon.png");
    left: 0;
-
 }
 
 .social-icons #facebook-icon {
    background-image: url("../img/social-icons/facebook_icon.png");
-   left: 34px;
+   left: 136px;
 }
 
 .social-icons #github-icon {
    background-image: url("../img/social-icons/github_icon.png");
-   left: 68px;
+   left: 34px;
 }
 
 .social-icons #linkedin-icon {
    background-image: url("../img/social-icons/linkedin_icon.svg");
-   left: 102px;
+   left: 68px;
 }
 
 .social-icons #gmail-icon {
    background-image: url("../img/social-icons/gmail_icon.svg");
-   left: 136px;
+   left: 102px;
 }
 
-/* End Header */
-
-/* Parallax Slider */
-
-.title {
-   text-align: center;
-   position: absolute;
-   left: 50%;
-   top: 25%;
-   -webkit-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
-}
-
-.parallax {
-   height: 500px;
-   height: 100vh;
-   overflow-x: hidden;
-   overflow-y: auto;
-   -webkit-perspective: 300px;
-   perspective: 300px;
-}
-
-.parallax-layer {
-   position: absolute;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   
-}
-
-.parallax-group {
-   transition: transform 0.5s;
-   position: relative;
-   height: 500px;
-   height: 100vh;
-   -webkit-transform-style: preserve-3d;
-   transform-style: preserve-3d;
-}
-
-.parallax-layer-base {
-   -webkit-transform: translateZ(0);
-   transform: translateZ(0);
-   z-index: 4;
-}
-
-.intro {
-   background: lightgreen;
-}
-
-.mason {
-   background: url("../img/background.png") repeat;
-   height: 100%;
-}
-
-.container {
-    height: 100%;
-}
+/* Fixed Title Bar END */
 
 /* Masonry Layout */
-
-ol {
-   -moz-column-count: 4;
-   -webkit-column-count: 4;
-   column-count: 4;
-   position: relative;
-   width: 100%;
-   margin: 55px 15px;
-   z-index: 9;
-   background: url("../img/background.png") repeat;
+.mason-img {
+   background: transparent;
+   font-size: 100%;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
 }
 
-ol li {
-   display: inline-block;
-   list-style: none;
-   width: 100%;
-   text-align: center;
-   overflow: hidden;
-   height: 100%;
-}
-
-li > a {
-   height: 0;
-   width: 0;
-   display: none;
-}
+/* Masonry Layout END*/
 
 
-/* Masonry Layout END */
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+   ol {
+      -moz-column-count: 3;
+      -moz-column-gap: 0;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 0;
+      column-count: 3;
+      column-gap: 0;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   ol {
+      -moz-column-count: 2;
+      -moz-column-gap: 0;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 0;
+      column-count: 2;
+      column-gap: 0;
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   ol {
+      -moz-column-count: 1;
+      -moz-column-gap: 0;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 0;
+      column-count: 1;
+      column-gap: 0;
+   }
+}
+

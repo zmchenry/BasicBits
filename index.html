@@ -8,102 +8,62 @@
 </head>
 
 <body>
-<!-- Allow image to appear in the background so parallax goes over it -->
-<div class="overlay"></div>
-<div class="expanded-header">
-   <div class="title-grouping">
-      <div id="title">
-         <h1>Basic Bits</h1>
-      </div>
-      <div class="picture">
-         <img src="./img/picture.png" alt=""/>
-      </div>
-      <div class="social-icons">
-         <a class="social-icon expanded-icon" id="twitter-icon" href="https://www.twitter.com/basicbits/"></a>
-         <a class="social-icon expanded-icon" id="facebook-icon" href="https://www.facebook.com/zachary.mchenry"></a>
-         <a class="social-icon expanded-icon" id="github-icon" href="https://github.com/zmchenry"></a>
-         <a class="social-icon expanded-icon" id="linkedin-icon" href="https://www.linkedin.com/in/zacharymchenry"></a>
-         <a class="social-icon expanded-icon" id="gmail-icon" href="mailto:zmchenry@gmail.com"></a>
-      </div>
-   </div>
-   <div class="pattern"></div>
-</div>
-<div class="parallax">
-   <div id="expanded-cover"class="parallax-group">
-      <div class="parallax-layer parallax-layer-base">
-      </div>
-   </div>
-   <div class="parallax-group intro">
-      <div class="parallax-layer parallax-layer-base">
-         <div class="title">Hello, I am Zachary! I am passionate about Front-End Web Development and all aspects of Computer Science</div>
-      </div>
-   </div>
-   <div id="group4" class="parallax-group">
-      <div class="parallax-layer parallax-layer-base reduced-header">
-         <div class="social-icons">
+
+<!-- Masonry Layout -->
+<div class="container">
+   <div class="title-bar">
+      <div class="reduced-header">
+         <h1 id="title">Basic Bits</h1>
+         <span class="social-icons">
             <a class="social-icon reduced-icon" id="twitter-icon" href="https://www.twitter.com/basicbits/"></a>
             <a class="social-icon reduced-icon" id="facebook-icon" href="https://www.facebook.com/zachary.mchenry"></a>
             <a class="social-icon reduced-icon" id="github-icon" href="https://github.com/zmchenry"></a>
             <a class="social-icon reduced-icon" id="linkedin-icon" href="https://www.linkedin.com/in/zacharymchenry"></a>
             <a class="social-icon reduced-icon" id="gmail-icon" href="mailto:zmchenry@gmail.com"></a>
-         </div>
-         <div id="title">
-            <h1>Basic Bits</h1>
-         </div>
-      </div>
-      <div class="parallax-layer parallax-layer-base mason">
-         <div class="container">
-            <ol class="content-stories">
-               <li id="imgur-tile">
-                  <a class="professional" href="https://zmchenry.github.io/projects/imgur/index.html">Imgur Homepage</a>
-                  <img src="./img/tiles/imgurfrontpage.png" alt=""/>
-               </li>
-               <li>
-                  <img src="./img/tiles/angtodo.png" alt=""/>
-               </li>
-               <li>
-                  <a></a>
-                  <img src="./img/tiles/todo_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/propositional_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/intoeat_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/crime_scene_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/tju_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/recaman_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/internship2-13_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/new_semester_tile.png" alt=""/>
-               </li>
-               <li>
-                  <a href=""></a>
-                  <img src="./img/tiles/snake_tile.png" alt=""/>
-               </li>
-            </ol>
-         </div>
-
+         </span>
       </div>
    </div>
+   <div class="masonry-container">
+      <ol>
+         <li>
+            <img class="mason-img"src="img/tiles/angtodo.png" alt=""/>
+         </li>
+
+         <li>
+            <img src="img/tiles/imgurfrontpage.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/intoeat_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/new_semester_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/todo_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/internship2-13_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/propositional_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/crime_scene_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/recaman_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/tju_tile.png" alt=""/>
+         </li>
+         <li>
+            <img src="img/tiles/snake_tile.png" alt=""/>
+         </li>
+      </ol>
+   </div>
 </div>
-<!-- End Header -->
-<script src="js/main.js"></script>
+   <!-- Masonry Layout END -->
+
+   <script src="js/main.js"></script>
 </body>
 </html>
