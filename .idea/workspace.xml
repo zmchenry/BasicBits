@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46b83c7c-6656-4f02-9055-6f423f66cf37" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/angtodo.png" afterPath="$PROJECT_DIR$/img/tiles/angtodo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/intoeat_tile.png" afterPath="$PROJECT_DIR$/img/tiles/intoeat_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="BasicBits.iws" />
@@ -44,8 +40,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6013986" vertical-offset="1565" max-vertical-offset="2760">
-              <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.13986014" vertical-offset="800" max-vertical-offset="2760">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -650,12 +646,12 @@
       <workItem from="1422908404511" duration="801000" />
       <workItem from="1422911740536" duration="9763000" />
       <workItem from="1422983817458" duration="563000" />
-      <workItem from="1423065562389" duration="11200000" />
+      <workItem from="1423065562389" duration="11780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55990000" />
+    <option name="totallyTimeSpent" value="56570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="812" extended-state="6" />
@@ -827,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6013986" vertical-offset="1565" max-vertical-offset="2760">
-          <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.13986014" vertical-offset="800" max-vertical-offset="2760">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding />
         </state>
       </provider>
