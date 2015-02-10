@@ -88,17 +88,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/social-icons\/simple-shape.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19254,
-		"inputAbbreviatedPath": "\/img\/social-icons\/simple-shape.png",
-		"outputAbbreviatedPath": "\/img\/social-icons\/simple-shape.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/social-icons\/twitter_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -132,6 +121,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tiles\/backbonetodo_tile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122923,
+		"inputAbbreviatedPath": "\/img\/tiles\/backbonetodo_tile.png",
+		"outputAbbreviatedPath": "\/img\/tiles\/backbonetodo_tile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tiles\/crime_scene_tile.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -143,15 +143,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/tiles\/imgurfrontpage.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/img\/tiles\/imgurfrontpage.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -159,17 +150,6 @@
 		"initialSize": 31573,
 		"inputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.jpg",
 		"outputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/tiles\/imgurfrontpage.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.png",
-		"outputAbbreviatedPath": "\/img\/tiles\/imgurfrontpage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

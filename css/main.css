@@ -46,6 +46,7 @@ ol li img {
    max-width: 700px;
    overflow: hidden;
    display: block;
+
 }
 
 ol li:after {
@@ -73,7 +74,7 @@ ol li:after {
 #title {
    margin: 0;
    width: 45%;
-   padding-left: 5%;
+   padding-left: 6%;
    display: inline-block;
 }
 
