@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46b83c7c-6656-4f02-9055-6f423f66cf37" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social-icons/simple-shape.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tiles/imgurfrontpage.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/angtodo.png" afterPath="$PROJECT_DIR$/img/tiles/angtodo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background.png" afterPath="$PROJECT_DIR$/img/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/crime_scene_tile.png" afterPath="$PROJECT_DIR$/img/tiles/crime_scene_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/social-icons/facebook_icon.png" afterPath="$PROJECT_DIR$/img/social-icons/facebook_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/social-icons/github_icon.png" afterPath="$PROJECT_DIR$/img/social-icons/github_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/imgurfrontpage.jpg" afterPath="$PROJECT_DIR$/img/tiles/imgurfrontpage.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/internship2-13_tile.png" afterPath="$PROJECT_DIR$/img/tiles/internship2-13_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/intoeat_tile.png" afterPath="$PROJECT_DIR$/img/tiles/intoeat_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/propositional_tile.png" afterPath="$PROJECT_DIR$/img/tiles/propositional_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/recaman_tile.png" afterPath="$PROJECT_DIR$/img/tiles/recaman_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/snake_tile.png" afterPath="$PROJECT_DIR$/img/tiles/snake_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tiles/tju_tile.png" afterPath="$PROJECT_DIR$/img/tiles/tju_tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/social-icons/twitter_icon.png" afterPath="$PROJECT_DIR$/img/social-icons/twitter_icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="46b83c7c-6656-4f02-9055-6f423f66cf37" name="Default" comment="" />
     <ignored path="BasicBits.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -666,12 +646,12 @@
       <workItem from="1422911740536" duration="9763000" />
       <workItem from="1422983817458" duration="563000" />
       <workItem from="1423065562389" duration="12583000" />
-      <workItem from="1423585321751" duration="869000" />
+      <workItem from="1423585321751" duration="875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58242000" />
+    <option name="totallyTimeSpent" value="58248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1733" y="-108" width="1440" height="812" extended-state="6" />
