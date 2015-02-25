@@ -30,7 +30,6 @@ ol {
    column-gap: 0;
    position: relative;
    width: 90%;
-   z-index: 9;
    margin: 10px auto;
 }
 
@@ -54,13 +53,123 @@ ol li:after {
    padding: 0;
 }
 
-/*End Global Styles */
+.social-icons {
+   height: 36px;
+   opacity: .9;
+   width: 175px;
+}
+
+.social-icon {
+   background: no-repeat center;
+   height: 50px;
+   position: absolute;
+   top: 0;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+.facebook-icon {
+   background-image: url("../img/social-icons/facebook_icon.png");
+}
+
+.github-icon {
+   background-image: url("../img/social-icons/github_icon.png");
+}
+
+.linkedin-icon {
+   background-image: url("../img/social-icons/linkedin_icon.svg");
+}
+
+.gmail-icon {
+   background-image: url("../img/social-icons/gmail_icon.svg");
+}
+
+.twitter-icon {
+   background-image: url("../img/social-icons/twitter_icon.png");
+   left: 0;
+}
+
+/* End Global Styles */
+
+/* Picture and social slider */
+.parallax {
+   height: 900px;
+   width: 100%;
+   position: relative;
+}
+
+.background {
+   height: 85%;
+   width: 100%;
+   text-align: center;
+   position: fixed;
+   z-index: -1;
+   padding: 20px 0;
+   background: slategray;
+}
+
+.background h1 {
+   font-size: 3em;
+   margin: 50px 0;
+}
+
+.profile {
+   height: 250px;
+   width: 200px;
+   border-radius: 10px;
+}
+
+.background .social-icons {
+   width: 75%;
+   position: absolute;
+   bottom: 150px;
+   left: 35%;
+}
+
+.background .social-icon {
+   background-size: 15%;
+   width: 20%;
+}
+
+.background .github-icon {
+   left: 5%
+}
+
+.background .linkedin-icon {
+   left: 10%;
+}
+
+.background .gmail-icon {
+   left: 15%;
+}
+
+.background .facebook-icon {
+   left: 20%;
+}
+
+.cover {
+   height: 75%;
+   position: relative;
+}
+/* Picture and social slider END */
+
+/* Introductory Bar */
+.intro-bar {
+   background: crimson;
+   height: 300px;
+   width: 100%;
+   position: relative;
+   bottom: 60px;
+}
+/* Introductory Bar END*/
 
 /* Fixed Title Bar */
 
 .container {
    background: url("../img/background.png");
    height: 100%;
+   overflow: auto;
+   position: relative;
 }
 
 .title-bar {
@@ -71,60 +180,41 @@ ol li:after {
    line-height: 55px;
 }
 
-#title {
+.reduced-header h1 {
    margin: 0;
    width: 45%;
    padding-left: 6%;
    display: inline-block;
 }
 
-.social-icons {
-   height: 36px;
-   opacity: .9;
+.reduced-header .social-icons {
    position: absolute;
    right: 0;
-   width: 175px;
    margin: 0 5%;
 }
 
-.social-icon {
-   background: no-repeat center;
-   height: 50px;
-}
-
 .reduced-icon {
-   position: absolute;
-   top: 0;
-   margin: 0 auto;
-   padding: 0 10px;
    background-size: 30%;
    width: 35%;
 }
 
-.social-icons #twitter-icon {
-   background-image: url("../img/social-icons/twitter_icon.png");
-   left: 0;
-}
-
-.social-icons #facebook-icon {
-   background-image: url("../img/social-icons/facebook_icon.png");
+.reduced-header .facebook-icon {
    left: 136px;
 }
 
-.social-icons #github-icon {
-   background-image: url("../img/social-icons/github_icon.png");
+.reduced-header .github-icon {
    left: 34px;
 }
 
-.social-icons #linkedin-icon {
-   background-image: url("../img/social-icons/linkedin_icon.svg");
+.reduced-header .linkedin-icon {
    left: 68px;
 }
 
-.social-icons #gmail-icon {
-   background-image: url("../img/social-icons/gmail_icon.svg");
+.reduced-header .gmail-icon {
    left: 102px;
 }
+
+
 
 /* Fixed Title Bar END */
 
@@ -134,6 +224,10 @@ ol li:after {
    position: relative;
    left: -75px;
    max-width: 500px;
+}
+
+.masonry-container {
+   position: relative;
 }
 
 
