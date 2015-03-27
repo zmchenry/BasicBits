@@ -1,2 +1,4 @@
-/.idea/workspace.xml
-/config.codekit
+.idea/
+.codekit-cache
+config.codekit
+.DS_Store
