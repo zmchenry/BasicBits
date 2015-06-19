@@ -1,0 +1,17 @@
+<div class="title">Recaman's Sequence</div>
+<div>This is a problem from a TJU contest that Dr. Stansifer, from FIT, had over the weekend. During the school year this is a regular occurance. Dr. Stansifer will start that programming contest on Saturday at noon and then it will go until close to midnight. This is one of the programs that were available to be solved.</div>
+<div>The Recaman's sequence is defined by a<sup>0</sup> = 0 ; for m > 0, a<sup>m</sup> = a <sup>m-1</sup>- m if the resulting a<sup>m</sup> is positive and not already in the sequence, otherwise a<sup>m</sup> = a<sup>m-1</sup> + m.The first few numbers in the Recaman's Sequence is 0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9... . Given k, your task is to calculate a<sup>k</sup> .</div>
+<div class="inputoutput">Input</div>
+<div>The input consists of several test cases. Each line of the input contains an integer k where 0 ≤ k ≤ 500000. The last line contains an integer -1, which should not be processed.</div>
+<div class="inputoutput">Output</div>
+<div>For each k given in the input, print one line containing ak to the output.</div>
+<div class="inputoutput">Sample Input</div>
+<div class="command">7</div>
+<div class="command">10000</div>
+<div class="command">-1</div>
+<div class="inputoutput">Sample Output</div>
+<div class="command">20</div>
+<div class="command">18658</div>
+<div>My solution originally to this problem was to precompute the values for myself and then insert the values into an array as literals. However, Java does not like that many literals in a program. So instead I precomputed the values using the formulas above. Then I would take in the input which would then be the index in my array that I needed to reference. The code below gave me a correct result with:</div>
+</pre>
+<div class="gist" data-gistsrc="https://gist.github.com/zmchenry/6403286.js"></div>
