@@ -1,0 +1,51 @@
+<div class="title">Propositional Checker</div>
+<div>This is a project that was given to me by Dr. Stansifer, my professor for Advanced Java Concepts. The project description and goals go as follows:</div>
+<div class="subheader">The Task</div>
+<div>Check a propositional formula with up to 6 distinct propositional letters written in postfix notation. Use a stack (ArrayDeque) of BitSet.</div>
+<div>Propositionals are one letter names from a-z, but at most 6 distinct propositions will appear in the formula. The connectives are:</div>
+<div class="command">- (unary) negation</div>
+<div class="command">& (binary) conjunction</div>
+<div class="command">| (binary) disjunction</div>
+<div class="command">= (binary) equivalence</div>
+<div class="command">> (binary) implication</div>
+<div class="subheader">Sample Input and Output</div>
+<div class="subheader">Input:</div>
+<div>p</div>
+<div>p-p|</div>
+<div>p -p&</div>
+<div>pq&</div>
+<div>pq=</div>
+<div>p q ></div>
+<div class="subheader">Output:</div>
+<div>contingent</div>
+<div>tautology</div>
+<div>contradiction</div>
+<div>contingent</div>
+<div>contingent</div>
+<div>contingent</div>
+<div>For each line of input print, print one of the three possibilities. The second line, for example: "not p or p" is a tautology.</div>
+<div>I recommend using nextLine() from the Scanner class to the whole line. Don't forget to ignore any white space in the line.</div>
+<div>I will include portions of my code but the rest can be found on my <a href="https://github.com/zmchenry/Propositional-Checker" target="_blank">GitHub</a></div>
+<div>The portion of the program that I think is the most important for efficiency is the bit shift operation used to calculate the power of two. This is a common practice but saves time because the Math.pow can be very expensive especially for larger powers of two.</div>
+<div class="gist" data-gistsrc="https://gist.github.com/zmchenry/6472914.js"></div>
+<div>The next important piece that helps tremendously is storing all of the propositional characters and the BitSet values related to each value in a HashMap. Doing this will create a table similar to:</div>
+<div>
+  <table>
+    <tbody>
+    <tr>
+      <th>Propositional Character</th>
+      <th>Bit Values</th>
+    </tr>
+    <tr>
+      <td>P</td>
+      <td>0101</td>
+    </tr>
+    <tr>
+      <td>Q</td>
+      <td>0011</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div>Of course in this program with the maximum bits being 64 it would display all 64 in the same pattern shown above. With these two tools this project became simple and noticing the pattern of each variable as it is added to the table was important, as well.</div>
+

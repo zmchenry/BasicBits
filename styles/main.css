@@ -1,0 +1,435 @@
+/*
+Author: Zachary McHenry
+Twitter: @basicbits
+Email: zmchenry@gmail.com
+*/
+
+/* Global Classes */
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Federo', sans-serif;
+  margin: 0;
+}
+
+li:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+ol {
+  clear: both;
+  -moz-column-count: 4;
+  -moz-column-gap: 0;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 0;
+  column-count: 4;
+  column-gap: 0;
+  position: relative;
+  width: 90%;
+  margin: 10px auto;
+}
+
+ol li {
+  display: block;
+  list-style: none;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+ol li img {
+  max-width: 700px;
+  overflow: hidden;
+  display: block;
+
+}
+
+ol li:after {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.article-overlay {
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  width: 100%;
+  z-index: 5000;
+  height: 100%;
+}
+
+.article {
+  position: fixed;
+  left: 20%;
+  top: 20px;
+  width: 65%;
+  height: 95%;
+  border-color: blue;
+  border: 2px inset;
+  overflow: scroll;
+  background: url("../images/background.png");
+  z-index: 5001;
+  font-size: 1.0em;
+  text-indent: 2em;
+
+}
+
+.article .title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3em;
+  background: black;
+  width: 100%;
+  color: white;
+
+}
+.article img {
+  margin: 0 auto;
+  display: inherit;
+}
+
+.article table, {
+  border-spacing: 0;
+  display: inline-block;
+  text-indent: 0;
+  margin: 0 25%;}
+
+.article td, .article th {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.article .subheader {
+  font-weight: bold;
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.inputoutput {
+  font-weight: bold;
+  text-indent: 0;
+}
+
+.article .sidebyside {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.article .gist {
+  width: 90%;
+}
+
+.article .gist table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.article .gist .gist-meta {
+  padding: 0;
+}
+
+.article .sidebyside img {
+  display: inline-block;
+
+}
+
+.article .command {
+  color: #708090;
+  font-family: monospace, serif;
+  margin: 0;
+}
+
+.article div {
+  margin: 15px 10px;
+}
+
+.article .link {
+  margin: 0 40px;
+}
+
+.article div, .article a {
+  font-family: "Helvetica Neue", Trebuchet, Verdana, sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.gist .line-numbers{
+  display: none;
+}
+
+
+
+.social-icons {
+  height: 36px;
+  opacity: .9;
+  width: 175px;
+}
+
+.social-icon {
+  background: no-repeat center;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.facebook-icon {
+  background-image: url("../images/social-icons/facebook_icon.png");
+}
+
+.github-icon {
+  background-image: url("../images/social-icons/github_icon.png");
+}
+
+.linkedin-icon {
+  background-image: url("../images/social-icons/linkedin_icon.png ");
+}
+
+.gmail-icon {
+  background-image: url("../images/social-icons/gmail_icon.png");
+}
+
+.twitter-icon {
+  background-image: url("../images/social-icons/twitter_icon.png");
+  left: 0;
+}
+
+/* End Global Styles */
+
+/* Picture and social slider */
+.parallax {
+  height: 900px;
+  width: 100%;
+  position: relative;
+}
+
+.background {
+  height: 85%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: -1;
+  padding: 20px 0;
+  background: slategray;
+}
+
+.background h1 {
+  font-size: 3em;
+  margin: 50px 0;
+}
+
+.profile {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.background .social-icons {
+   width: 363px;
+   position: relative;
+   display: block;
+   margin: 0 auto;
+   margin-top: 50px;
+   padding-right: 100px;
+}
+
+.background .social-icon {
+   background-size: 32px;
+   min-width: 32px;
+   position: relative;
+   display: inline-block;
+}
+
+.background .github-icon {
+  left: 32px;
+}
+
+.background .linkedin-icon {
+  left: 64px;
+}
+
+.background .gmail-icon {
+  left: 96px;
+}
+
+.background .facebook-icon {
+  left: 128px;
+}
+
+.cover {
+  height: 75%;
+  position: relative;
+}
+/* Picture and social slider END */
+
+/* Introductory Bar */
+.intro-bar {
+  background: crimson;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  bottom: 60px;
+}
+/* Introductory Bar END*/
+
+/* Fixed Title Bar */
+
+.container {
+  background: url("../images/background.png");
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  padding: 0;
+}
+
+.title-bar {
+  background: #444;
+  color: #FFF;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  margin-bottom: -55px;
+}
+
+.reduced-header {
+   width: 100%;
+}
+
+.reduced-header h1 {
+  margin: 0;
+  width: 45%;
+  padding-top: 5px;
+  padding-left: 5%;
+  display: inline-block;
+}
+
+.reduced-header .social-icons {
+  position: absolute;
+  right: 0;
+  margin: 0 5%;
+}
+
+.reduced-icon {
+  background-size: 40%;
+  width: 35%;
+}
+
+.reduced-header .facebook-icon {
+  left: 136px;
+}
+
+.reduced-header .github-icon {
+  left: 34px;
+}
+
+.reduced-header .linkedin-icon {
+  left: 68px;
+}
+
+.reduced-header .gmail-icon {
+  left: 102px;
+}
+
+.come-in {
+	transform: translateY(150px);
+  -webkit-animation: come-in 0.6s ease forwards;
+  -moz-animation: come-in 0.6s ease forwards;
+}
+.come-in:nth-child(3n) {
+  animation-duration: 1.5s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+
+
+/* Fixed Title Bar END */
+
+/* Masonry Layout */
+
+.reposition {
+  position: relative;
+  left: -90px;
+  max-width: 500px;
+}
+
+.masonry-container {
+  position: relative;
+  margin-top: 65px;
+}
+
+
+/* Masonry Layout END*/
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  ol {
+    -moz-column-count: 3;
+    -moz-column-gap: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0;
+    column-count: 3;
+    column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ol {
+    -moz-column-count: 2;
+    -moz-column-gap: 0;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0;
+    column-count: 2;
+    column-gap: 0;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ol {
+    -moz-column-count: 1;
+    -moz-column-gap: 0;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0;
+    column-count: 1;
+    column-gap: 0;
+  }
+}
