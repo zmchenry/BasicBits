@@ -63,7 +63,7 @@
          if(!document._write) {
             document._write = document.write;
          }
-         // Shimming out document.write
+         // Shimming out document.write to make it not evil
          document.write = function (str) {
             document.getElementsByClassName('gist')[i - 1].innerHTML += str;
          };
